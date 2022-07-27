@@ -1,0 +1,101 @@
+@media screen and (max-width: 552px){
+
+    .list-adress{
+        width: inherit;
+    }
+
+    .maps{
+        width: 90vw;
+    }
+
+    .table-prod-arm{
+       
+        width: 60vw;
+        height: auto;
+        display: flex;
+        justify-content: center;}
+        
+
+    
+}
+
+
+@media screen and (max-width: 430px){
+   
+    figure{
+        font-size: 10px;
+    }
+
+    .container-sm{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container-prod{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header{
+        width: 90vw;
+    }
+    .header img{
+        width: 40vw;
+    }
+
+    .text-gray{
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .title-anim{
+        font-size: 30px;
+    }
+
+    .table-ortopedia{
+        margin-left: 0%;
+        width: 80vw;
+        
+    }
+
+    .table-fonoau{
+        width: 60vw;
+    }
+
+    .table-prod-arm{
+        padding: 10px;
+        width: 60vw;
+        height: auto;
+        display: flex;
+        justify-content: center;}
+
+    .gap img{
+        width: 8vw;
+        height: 5vh;
+    }
+
+    .text-white{
+        font-size: 10px;
+    }
+
+    
+
+    .padd-3{
+        padding: 20px;
+    }
+
+    .text-area{
+        width: 50vw;
+        height: auto;
+    }
+
+    .contacto{
+        font-size: 10px;
+    }
+    .fontSize2{
+        font-size: 15px;
+    }
+    
+}
