@@ -21,9 +21,11 @@
 
 
 @media screen and (max-width: 430px){
+
+    
    
     figure{
-        font-size: 10px;
+        font-size: map-get($map: $FontSize, $key:sm );
     }
 
     .container-sm{
@@ -31,12 +33,14 @@
         justify-content: space-evenly;
     }
 
+
+    
     .container-prod{
-        display: flex;
+       @extend .container-sm;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
+    }    
 
     .header{
         width: 90vw;
@@ -51,7 +55,7 @@
     }
 
     .title-anim{
-        font-size: 30px;
+        font-size: map-get($map: $FontSize, $key: xl );
     }
 
     .table-ortopedia{

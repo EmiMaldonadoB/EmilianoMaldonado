@@ -1,34 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 
+$boxShadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+$textShadow: 0px 0px 20px rgb(5, 5, 5);
+$backG: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+$borderRad: 15px 0px 15px 0px;
+$borderRad2: 30px 0px 30px 0px;
+$borderCol: rgb(226, 7, 7);
+
+
+
 
 .TextShadow{
     border-style: solid;
-    border-radius: 15px 0px 15px 0px;
+    border-radius: $borderRad;
     border-color: red;
-    background: rgb(255,218,0);
-    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
-    -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
-    -moz-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
-    box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    background: $backG;
+    box-shadow: $boxShadow;
 }
 
 .h3-maps{
     
-    background: rgb(255,218,0);
-    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    
+    background: $backG;
     padding: 30px;
     height: 15vh;
     border-style: solid;
     border-color: rgb(226, 7, 7);
-    border-radius: 15px 0px 15px 0px;
-    border-width: 3px;
+    border-radius: $borderRad;
+   
     font-size: 15px;
     text-decoration: none;
-    box-shadow: 3px 3px 0 black;
-    -webkit-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
-    -moz-box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
-    box-shadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
+    box-shadow: $boxShadow;
    
 }
 
@@ -70,13 +73,6 @@
 }
 
 
-.fontSize2{
-    font-size: 25px;
-}
-
-.fontSize3{
-    font-size: 20px;
-}
 .gap{
     display: flex;
     justify-content: space-around;
@@ -112,14 +108,22 @@
     margin: 20px;
     font-style: italic;
     font-size: 70px;
+    &:hover{
+        transform: translateX(20px);
+        text-shadow: $textShadow;
+        transition: transform 1s;
+    }
     
     
 }
 
-.title-anim:hover{
-    transform: translateX(20px);
-    text-shadow: 0px 0px 20px rgb(5, 5, 5);
-    transition: transform 1s;
-}
 
+
+
+$FontSize:(
+    'sm': 10px,
+    'm':  30px,
+    'lg': 25px,
+    'xl': 50px,
+);
 

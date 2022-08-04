@@ -16,27 +16,19 @@ body {
   border-style: solid;
   border-radius: 15px 0px 15px 0px;
   border-color: red;
-  background: rgb(255, 218, 0);
   background: linear-gradient(0deg, rgb(255, 218, 0) 0%, rgb(241, 234, 134) 50%, rgb(255, 244, 0) 100%);
-  -webkit-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
   box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
 }
 
 .h3-maps {
-  background: rgb(255, 218, 0);
   background: linear-gradient(0deg, rgb(255, 218, 0) 0%, rgb(241, 234, 134) 50%, rgb(255, 244, 0) 100%);
   padding: 30px;
   height: 15vh;
   border-style: solid;
   border-color: rgb(226, 7, 7);
   border-radius: 15px 0px 15px 0px;
-  border-width: 3px;
   font-size: 15px;
   text-decoration: none;
-  box-shadow: 3px 3px 0 black;
-  -webkit-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
   box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
 }
 
@@ -74,14 +66,6 @@ body {
   height: 50vh;
 }
 
-.fontSize2 {
-  font-size: 25px;
-}
-
-.fontSize3 {
-  font-size: 20px;
-}
-
 .gap {
   display: flex;
   justify-content: space-around;
@@ -116,7 +100,6 @@ body {
   font-style: italic;
   font-size: 70px;
 }
-
 .title-anim:hover {
   transform: translateX(20px);
   text-shadow: 0px 0px 20px rgb(5, 5, 5);
@@ -126,15 +109,11 @@ body {
 .header {
   margin-right: 0px;
   width: 95vw;
-  background: rgb(255, 218, 0);
   background: linear-gradient(0deg, rgb(255, 218, 0) 0%, rgb(241, 234, 134) 50%, rgb(255, 244, 0) 100%);
   border-style: solid;
   border-color: rgb(226, 7, 7);
   border-radius: 15px 0px 15px 0px;
   border-width: 3px;
-  box-shadow: 3px 3px 0 black;
-  -webkit-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
   box-shadow: 15px 22px 25px -8px rgba(0, 0, 0, 0.48);
 }
 
@@ -142,7 +121,7 @@ nav a:hover {
   color: red;
   text-decoration: overline;
   transform: translateY(5px);
-  text-shadow: -1px 6px 2px rgba(3, 3, 3, 0.36);
+  text-shadow: 0px 0px 20px rgb(5, 5, 5);
   transition: transform 0.8s;
 }
 
@@ -150,13 +129,12 @@ nav a:hover {
   padding: 20px;
   width: 96vw;
   margin-left: 0px;
-  grid-area: footer;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
   background-color: black;
   border-style: double;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  align-items: center;
   border-style: solid;
   border-color: rgb(226, 7, 7);
   border-radius: 15px 0px 15px 0px;
@@ -183,9 +161,9 @@ nav a:hover {
   border-radius: 30px 0px 30px 0px;
   border-color: rgb(226, 7, 7);
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 .tableta-armazones {
@@ -223,7 +201,6 @@ nav a:hover {
 
 .conteiner-img {
   width: 30vw;
-  height: 40vh;
 }
 
 .contacto {
@@ -245,6 +222,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 552px) {
@@ -265,12 +243,11 @@ nav a:hover {
   figure {
     font-size: 10px;
   }
-  .container-sm {
+  .container-sm, .container-prod {
     display: flex;
     justify-content: space-evenly;
   }
   .container-prod {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -286,7 +263,7 @@ nav a:hover {
     padding: 15px;
   }
   .title-anim {
-    font-size: 30px;
+    font-size: 50px;
   }
   .table-ortopedia {
     margin-left: 0%;

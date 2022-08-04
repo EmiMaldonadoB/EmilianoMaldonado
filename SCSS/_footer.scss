@@ -2,16 +2,12 @@
     padding: 20px;
     width: 96vw;
     margin-left: 0px;
-    grid-area: footer;
-    display: flex;
+    @include d-flex(space-between, center, row-reverse);
     background-color: black;
     border-style: double;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: center;
     border-style: solid;
     border-color: rgb(226, 7, 7);
-    border-radius: 15px 0px 15px 0px;
+    border-radius: $borderRad;
     border-width: 3px;
 }
 
