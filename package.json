@@ -1,7 +1,7 @@
 {
-  "name": "proyecto-optica.github.io",
+  "name": "Proyecto Optica Birle",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web, creado como proyecto de cursada, para la empresa Optica Birle e Hijos S.R.L",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "Proyecto-Optica.github.io"
   },
-  "author": "",
+  "author": "Maldonado Emiliano",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.54.0"
