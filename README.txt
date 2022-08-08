@@ -61,3 +61,10 @@ en la linea 58 de la misma hoja.
 
 
 
+
+--------------------------------------------------------------------------------------------------
+
+				--3ra Pre Entrega---
+Termine de aplicar los Mixins y Maps a todo el proyecto. Tambien subi el proyecto a host gratuito
+
+

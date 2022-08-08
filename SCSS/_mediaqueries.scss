@@ -1,40 +1,26 @@
 @media screen and (max-width: 552px){
-
     .list-adress{
         width: inherit;
     }
-
     .maps{
         width: 90vw;
     }
-
     .table-prod-arm{
-       
         width: 60vw;
         height: auto;
         display: flex;
         justify-content: center;}
-        
-
-    
 }
 
 
 @media screen and (max-width: 430px){
-
-    
-   
     figure{
         font-size: map-get($map: $FontSize, $key:sm );
     }
-
     .container-sm{
         display: flex;
         justify-content: space-evenly;
     }
-
-
-    
     .container-prod{
        @extend .container-sm;
         flex-direction: column;
@@ -51,7 +37,7 @@
 
     .text-gray{
         font-size: 15px;
-        padding: 15px;
+        padding: map-get($map: $padd, $key:quince );;
     }
 
     .title-anim{
@@ -69,7 +55,7 @@
     }
 
     .table-prod-arm{
-        padding: 10px;
+        padding: map-get($map: $padd, $key:diez );
         width: 60vw;
         height: auto;
         display: flex;
@@ -82,12 +68,15 @@
 
     .text-white{
         font-size: 10px;
+        margin-left: 10px;
+        font-size: 12px;
+        
     }
 
     
 
     .padd-3{
-        padding: 20px;
+        padding: map-get($map: $padd, $key:veinte );
     }
 
     .text-area{

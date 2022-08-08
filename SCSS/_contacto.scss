@@ -1,10 +1,9 @@
 .contacto{
-    border-radius: 4px;
     border-style: groove;
-    border-radius: $borderRad2;
+    border-radius: $borderRadius2;
     border-color: $borderCol;
     width: 70vw;
-    padding: 20px;
+    padding: map-get($map: $padd, $key:veinte );;
 }
 .FormPlace{
     display: flex;

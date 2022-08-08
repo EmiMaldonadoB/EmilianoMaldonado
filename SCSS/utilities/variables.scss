@@ -4,35 +4,50 @@
 $boxShadow: 15px 22px 25px -8px rgba(0,0,0,0.48);
 $textShadow: 0px 0px 20px rgb(5, 5, 5);
 $backG: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
-$borderRad: 15px 0px 15px 0px;
-$borderRad2: 30px 0px 30px 0px;
-$borderCol: rgb(226, 7, 7);
 
+$borderCol: rgb(226, 7, 7);
+$borderRadius: 15px 0px 15px 0px;
+$borderRadius2: 30px 0px 30px 0px;
+
+
+
+// MAPS
+
+$FontSize:(
+    'sm': 10px,
+    'm':  20px,
+    'lg': 25px,
+    'xl': 50px,
+);
+
+
+$padd:(
+    'diez': 10px,
+    'quince': 15px,
+    'veinte': 20px,
+    'veinticin': 25px,
+    'treinta': 30px,
+);
 
 
 
 .TextShadow{
     border-style: solid;
-    border-radius: $borderRad;
-    border-color: red;
+    border-radius: $borderRadius;
     background: $backG;
     box-shadow: $boxShadow;
 }
 
 .h3-maps{
-    
-    
     background: $backG;
-    padding: 30px;
+    padding: map-get($map: $padd, $key:treinta );
     height: 15vh;
     border-style: solid;
     border-color: rgb(226, 7, 7);
-    border-radius: $borderRad;
-   
-    font-size: 15px;
+    border-radius: $borderRadius;
+    font-size: map-get($map: $FontSize, $key: lg );
     text-decoration: none;
     box-shadow: $boxShadow;
-   
 }
 
 
@@ -89,8 +104,13 @@ $borderCol: rgb(226, 7, 7);
     height: 48px;
 }
 
-.TextWhite{
+.text-gray{
+    padding: map-get($map: $padd, $key:treinta );;
+}
+
+.textwhite{
     color: white;
+    margin-left: 55px;
 }
 
 .title-tab{
@@ -118,12 +138,4 @@ $borderCol: rgb(226, 7, 7);
 }
 
 
-
-
-$FontSize:(
-    'sm': 10px,
-    'm':  30px,
-    'lg': 25px,
-    'xl': 50px,
-);
 
