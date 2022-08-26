@@ -4,6 +4,11 @@
     border-color: $borderCol;
     width: 70vw;
     padding: map-get($map: $padd, $key:veinte );;
+    
+}
+
+.input{
+    width: 250px;
 }
 .FormPlace{
     display: flex;
@@ -13,3 +18,4 @@
 .FormContacto{
     @include d-flex(center,center,row);
 }
+

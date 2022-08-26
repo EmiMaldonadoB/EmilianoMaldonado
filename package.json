@@ -1,7 +1,7 @@
 {
   "name": "Proyecto Optica Birle",
   "version": "1.0.0",
-  "description": "Sitio web, creado como proyecto de cursada, para la empresa Optica Birle e Hijos S.R.L",
+  "description": "Sitio web creado como proyecto de cursada para la empresa Optica Birle e Hijos S.R.L",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

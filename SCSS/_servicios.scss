@@ -1,0 +1,19 @@
+.mainServ{
+    @include d-flex(space-evenly, center, column);
+    height: 80vh;
+}
+
+.tableServicios{
+    background: rgb(255,218,0);
+    background: linear-gradient(0deg, rgba(255,218,0,1) 0%, rgba(241,234,134,1) 50%, rgba(255,244,0,1) 100%);
+    border-radius: 4px;
+    border-style: groove;
+    border-radius: $borderRadius2;
+    box-shadow: $boxShadow;
+    border-color: rgb(226, 7, 7);
+    width: 40vw;
+    height: auto;
+    display: flex;
+    @include d-flex(space-around, normal, row);
+    
+}
