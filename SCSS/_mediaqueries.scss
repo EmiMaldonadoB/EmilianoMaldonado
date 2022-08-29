@@ -1,3 +1,61 @@
+
+@media screen and (max-width: 780px){
+    .Contact{
+        @include d-flex(center, center, column);
+    }
+
+    .h3-maps{
+        width: 40vw;
+        padding: 15px;
+    }
+
+    .TableX{
+        @include d-flex(center, center, column);
+    }
+
+    .mg-l{
+        margin: 0px;
+    }
+
+    .table-ortopedia{
+        width: 55vw;
+        
+    }
+
+    .table-fonoau{
+        width: 50vw;
+    }
+
+    .tableServicios{
+        margin-bottom: 50px;
+    }
+
+    .Ubica{
+        padding: 0px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 552px){
     .list-adress{
         width: inherit;
@@ -29,7 +87,7 @@
     }    
 
     .header{
-        width: 90vw;
+        width: 95vw;
     }
     .header img{
         width: 40vw;
@@ -75,7 +133,7 @@
 
     
 
-    .padd-3{
+    .Ubica{
         padding: map-get($map: $padd, $key:veinte );
     }
 
@@ -87,8 +145,20 @@
     .contacto{
         font-size: 10px;
     }
-    .fontSize2{
+    .Caja{
         font-size: 15px;
+        margin-left: 85px;
+    }
+
+    .mg-l{
+        margin-top: 50px;
     }
     
+    .mainServ{
+        height: auto;
+    }
+    
+    .tableServicios{
+        width: 80vw;
+    }
 }

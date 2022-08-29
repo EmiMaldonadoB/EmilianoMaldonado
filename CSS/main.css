@@ -22,18 +22,6 @@
   width: 100vw;
 }
 
-.padd-1 {
-  padding: 15px;
-}
-
-.padd-3 {
-  padding: 50px;
-}
-
-.padd-4 {
-  padding: 75px;
-}
-
 .mg-l {
   margin: 100px;
 }
@@ -101,6 +89,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(255, 255, 255);
   font-size: 25px;
+  height: 100vh;
 }
 
 .main {
@@ -231,6 +220,7 @@ nav a:hover {
   border-color: rgb(226, 7, 7);
   width: 70vw;
   padding: 20px;
+  margin-left: 50px;
 }
 
 .input {
@@ -268,6 +258,40 @@ nav a:hover {
   text-decoration: none;
 }
 
+@media screen and (max-width: 780px) {
+  .Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h3-maps {
+    width: 40vw;
+    padding: 15px;
+  }
+  .TableX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mg-l {
+    margin: 0px;
+  }
+  .table-ortopedia {
+    width: 55vw;
+  }
+  .table-fonoau {
+    width: 50vw;
+  }
+  .tableServicios {
+    margin-bottom: 50px;
+  }
+  .Ubica {
+    padding: 0px;
+    margin: 5px;
+  }
+}
 @media screen and (max-width: 552px) {
   .list-adress {
     width: inherit;
@@ -296,7 +320,7 @@ nav a:hover {
     align-items: center;
   }
   .header {
-    width: 90vw;
+    width: 95vw;
   }
   .header img {
     width: 40vw;
@@ -331,7 +355,7 @@ nav a:hover {
     margin-left: 10px;
     font-size: 12px;
   }
-  .padd-3 {
+  .Ubica {
     padding: 20px;
   }
   .text-area {
@@ -341,8 +365,18 @@ nav a:hover {
   .contacto {
     font-size: 10px;
   }
-  .fontSize2 {
+  .Caja {
     font-size: 15px;
+    margin-left: 85px;
+  }
+  .mg-l {
+    margin-top: 50px;
+  }
+  .mainServ {
+    height: auto;
+  }
+  .tableServicios {
+    width: 80vw;
   }
 }
 

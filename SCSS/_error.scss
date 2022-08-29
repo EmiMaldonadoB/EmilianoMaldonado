@@ -1,7 +1,6 @@
 .error{
     @include d-flex(center, center, column);
     background-image: url(../imagenes/Imagenes/rotos.jpg);
-    
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: $borderRadius2;
